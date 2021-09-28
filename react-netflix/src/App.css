@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap");
+
+.box-shadow {
+  text-shadow: 2px 2px 3px var(--primary-color);
+}
+.star {
+  width: 150px;
+  position: relative;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.rating {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rating span {
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: gold;
+}
+
+.rating span:before {
+  content: "\2606\2606\2606\2606\2606";
+  position: absolute;
+  color: #bdbdbd;
+  z-index: -1;
+}

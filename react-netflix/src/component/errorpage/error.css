@@ -1,0 +1,7 @@
+.error-page {
+  min-height: 90vh;
+}
+
+.error-page h1 {
+  font-size: 4rem;
+}

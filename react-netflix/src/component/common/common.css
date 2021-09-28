@@ -1,0 +1,23 @@
+/* root values */
+
+:root {
+  --primary-color: #000000f8;
+  --secondary-color: #fcfcfc;
+}
+
+.navbar-main {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.searchbox img {
+  height: 1.5rem;
+}
+.searcharea {
+  padding: 0 !important;
+}
+
+.search-bar {
+  /* position: fixed; */
+  z-index: 999999;
+}
